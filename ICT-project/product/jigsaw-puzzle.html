@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mua trò chơi xếp hình The Drippy Trip</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/product.css">
+  <link rel="stylesheet" href="../assets/css/toggle-button.css">
+  <link rel="stylesheet" href="../assets/css/change-color.css">
+  <script src="../assets/js/toggle-button.js"></script>
+  <script src="../assets/js/icon.js" async></script>
+  <script src="../assets/js/import-components.js?components=navbar,footer,purchase" defer></script>
+  <script src="../assets/js/calculate-price.js?basePrice=5999" defer></script>
+  <script src="../assets/js/img-onclick.js" defer></script>
+</head>
+
+<body>
+  <header id="navbar"></header>
+
+  <div class="container">
+    <h1>Mua trò chơi xếp hình The Drippy Trip</h1>
+
+    <div id="purchase"></div>
+
+    <div class="product-gallery">
+      <img id="mainImage" class="big-image"
+        src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeO3VotnSV0wl7UWeLr92RmMERHnM80CLTsiXkHEo_SGofKTsECAa8OgTmGemtH-l5LLunR-NjTrXgN52pkgytK1GRPGAFuh3WLP-4SXLMTKiG9URNHCGQzH79U_n-9tIR6lroBpA?key=uM4T9K2cZ_zv-lmxAN8BfA"
+        alt="Product" />
+
+      <div class="thumb-row">
+        <img
+          src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeO3VotnSV0wl7UWeLr92RmMERHnM80CLTsiXkHEo_SGofKTsECAa8OgTmGemtH-l5LLunR-NjTrXgN52pkgytK1GRPGAFuh3WLP-4SXLMTKiG9URNHCGQzH79U_n-9tIR6lroBpA?key=uM4T9K2cZ_zv-lmxAN8BfA"
+          class="thumb" alt="1" onclick="changeImage()" />
+        <img
+          src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKzJ8sg29YpxhFz13R70PiHi7lhZkqH5_fm5fDLDNP6LhvlCyB-Hp6b96xB-eA3iP3opm4smrgrqgn5tjKZd-QQ7_JByN_pI4Zwr6izhDxMn-2CQa3MFL96qA2Iaj5n3FqenlQ?key=uM4T9K2cZ_zv-lmxAN8BfA"
+          class="thumb" alt="2" onclick="changeImage()" />
+        <img
+          src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeIMcdwi-vPKuLmRGAQBkBtLr3c80MA50MM_yE6GInjRDobcHOVh5v8TWeK-QShioQdpPDgv-oTwVIv3BwU7u8_pSkpw_qIcJZUvuvRrwqxBSYjdw_n-RMP46zMomR_2x7-eQbFzQ?key=uM4T9K2cZ_zv-lmxAN8BfA"
+          class="thumb" alt="3" onclick="changeImage()" />
+        <img
+          src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd2TeUdf41We2KUgclRkFGxCa3dyw1-S5PEZGiV9GgwjBxtDrAMG2CFPdQFRL4FMj2IaWbgZWYIrzjioQ1XYYtJF50ZG3k6az08Ppi4Ope6uiG2jp4ioH8R_eaLPsGdsyVO39DdOQ?key=uM4T9K2cZ_zv-lmxAN8BfA"
+          class="thumb" alt="4" onclick="changeImage()" />
+      </div>
+    </div>
+    <h3 class="heading">Sự thật thú zị mà có thể bạn chưa biết </h3>
+    <p class="intro-content">
+      - <b>The Drippy Trip</b>: <em>Bộ Xếp Hình Ảo Thuật 1000 Mảnh</em> là thứ bạn cần để nâng cấp trải nghiệm giải đố. Khi mảnh ghép cuối cùng được đặt vào, bạn sẽ được thưởng thức một <em>màn trình diễn kỳ diệu</em> – một trò ảo thuật gây kinh ngạc sử dụng chính ảo giác hình ảnh của bức tranh!
+      <br>
+      - Tác phẩm nghệ thuật gốc này chứa đựng <em>hơn 50 "Easter Eggs"</em> tinh tế, biến quá trình giải đố thành một cuộc săn tìm kho báu đầy bất ngờ.
+      <br>
+      - Đặc biệt, đây là sản phẩm đề cao chất lượng và sáng tạo: <em>không bụi, không nhựa dùng một lần, và 100% nghệ thuật thủ công (tạm biệt hình ảnh AI/stock!)</em>. Bộ còn kèm <em>hai</em> poster, cực kỳ lý tưởng để bạn rủ rê gia đình hoặc bạn bè cùng nhau chinh phục thử thách này.
+    </p>
+  </div>
+  <div class="neon-toggle" onclick="toggleTheme()">
+    <div class="toggle-circle">
+      <span id="themeIcon">☀️</span>
+    </div>
+  </div>
+
+  <footer id="footer"></footer>
+</body>
+
+</html>
